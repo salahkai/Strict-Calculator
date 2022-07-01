@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import Numbers from "./Numbers";
 // import ComplexeSigns from "./Signs";
 import Signs from "./Signs";
-import Settings from "../utils/Settings";
+import Settings from "../../utils/Settings";
 import {
   checkInputString,
   deleteString,
   replaceNames,
   beforeCalculate,
-} from "../utils/Functions";
+} from "../../utils/Functions";
 
 class Calculator extends React.Component {
   state = {
